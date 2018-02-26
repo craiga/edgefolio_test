@@ -1,0 +1,23 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "*"
+pandas = "*"
+django-model-utils = "*"
+xlrd = "*"
+
+
+[dev-packages]
+
+pylint = "*"
+faker = "*"
+factory-boy = "*"
+pycodestyle = "*"
+pylint-django = "*"
+pydocstyle = "*"
