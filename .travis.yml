@@ -16,6 +16,6 @@ script:
   - pipenv run pydocstyle
   - find . -iname "*.py" | xargs pipenv run pylint
   - pipenv run coverage run manage.py test
-  - pipenv run coverage report
+  - pipenv run coverage xml
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
