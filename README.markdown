@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/craiga/edgefolio_test.svg?branch=master)](https://travis-ci.org/craiga/edgefolio_test) [![Requirements Status](https://requires.io/github/craiga/edgefolio_test/requirements.svg?branch=master)](https://requires.io/github/craiga/edgefolio_test/requirements/?branch=master)
+[![Build Status](https://travis-ci.org/craiga/edgefolio_test.svg?branch=master)](https://travis-ci.org/craiga/edgefolio_test) [![Requirements Status](https://requires.io/github/craiga/edgefolio_test/requirements.svg?branch=master)](https://requires.io/github/craiga/edgefolio_test/requirements/?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/6f85fb139c8696cd1048/maintainability)](https://codeclimate.com/github/craiga/edgefolio_test/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/6f85fb139c8696cd1048/test_coverage)](https://codeclimate.com/github/craiga/edgefolio_test/test_coverage)
 
 # Getting Started
 
