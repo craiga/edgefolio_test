@@ -15,6 +15,6 @@ script:
   - pipenv run pycodestyle .
   - pipenv run pydocstyle
   - find . -iname "*.py" | xargs pipenv run pylint
-  - pipenv run python manage.py test
+  - pipenv run coverage run manage.py test
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
