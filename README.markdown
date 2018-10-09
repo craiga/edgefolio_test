@@ -25,7 +25,9 @@ Once development dependencies have been installed, you can run tests using the s
 
 You can also check code quality by running pycodestyle, pydocstyle and pylint:
 
-    
+    pipenv run pycodestyle .
+    pipenv run pydocstyle
+    find . -iname "*.py" | xargs pipenv run pylint
 
 # Notes
 

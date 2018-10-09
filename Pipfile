@@ -1,20 +1,16 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 django = "*"
 pandas = "*"
 django-model-utils = "*"
 xlrd = "*"
-
+pip = "!=18.1"
 
 [dev-packages]
-
 pylint = "*"
 faker = "*"
 factory-boy = "*"
